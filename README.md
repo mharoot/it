@@ -71,6 +71,15 @@ sudo apt-get install --no-install-recommends gnome-panel
 After installing gnome-panel, use following command to create a launcher.
 
 gnome-desktop-item-edit --create-new ~/Desktop
+
+8. Install Composer
+---------------------------------------------------------------------------------------
+sudo apt install composer (deprecrated)
+sudo apt-get install php-cli php-mbstring unzip
+cd ~
+curl -sS https://getcomposer.org/installer -o composer-setup.php
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ```
+
 
 
