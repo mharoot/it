@@ -74,6 +74,15 @@ gnome-desktop-item-edit --create-new ~/Desktop
 
 8. Install Composer
 ---------------------------------------------------------------------------------------
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+chmod u+x prereqs-ubuntu.sh
+
+./prereqs-ubuntu.sh
+
+
+
+(DEPRECATED). Install Composer
+---------------------------------------------------------------------------------------
 sudo apt install composer (deprecrated)
 sudo apt-get install php-cli php-mbstring unzip
 cd ~
